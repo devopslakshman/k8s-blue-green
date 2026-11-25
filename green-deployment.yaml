@@ -8,6 +8,9 @@ metadata:
     tier: frontend
     component: frontend
     version: green
+    annotations:
+    kubernetes.io/change-cause: "Deploy nginx green version using Roboshop green ECR image"
+spec:
 spec:
   replicas: 4
   selector:
