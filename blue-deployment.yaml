@@ -1,6 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
+namespace: roboshop
   name: nginx-blue
   labels:
     project: roboshop
