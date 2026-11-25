@@ -28,4 +28,4 @@ spec:
     spec:
       containers:
       - name: nginx-blue
-        image: joindevops/blue-green:0.0.1
+        image: 346882411601.dkr.ecr.us-east-1.amazonaws.com/roboshop/green:1.0
