@@ -1,8 +1,9 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-namespace: roboshop
+n
   name: nginx-blue
+  namrspace: roboshop
   labels:
     project: roboshop
     tier: frontend
