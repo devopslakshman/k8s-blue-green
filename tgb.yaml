@@ -1,0 +1,15 @@
+apiVersion: elbv2.k8s.aws/v1beta1
+kind: TargetGroupBinding
+metadata:
+  name: nginx-green
+  namespace: roboshop
+spec:
+  serviceRef:
+    name: nginx-green
+    port: 30080
+
+  targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:346882411601:targetgroup/roboshop-app1-tg/6a800ade43e647b5
+
+  targetType: ip
+  vpcID: vpc-01acf642d47e1fa4c
+  targetGroupProtocol: HTTP
