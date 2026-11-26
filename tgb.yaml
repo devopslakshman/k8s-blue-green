@@ -5,11 +5,11 @@ metadata:
   namespace: roboshop
 spec:
   serviceRef:
-    name: nginx-green
+    name: nginx-nlue
     port: 30080
 
-  targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:346882411601:targetgroup/roboshop-app1-tg/6a800ade43e647b5
+  targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:346882411601:targetgroup/roboshop-app1-tg/8462d5b21da6328d
 
   targetType: ip
-  vpcID: vpc-01acf642d47e1fa4c
+  vpcID:
   targetGroupProtocol: HTTP
