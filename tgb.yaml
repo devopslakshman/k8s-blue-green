@@ -9,7 +9,7 @@ spec:
     name: nginx-blue
     port: 30080
 
-  targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:346882411601:targetgroup/roboshop-app1-tg/00de60d76d40a591
+  targetGroupARN: arn:aws:elasticloadbalancing:us-east-1:346882411601:targetgroup/roboshop-tg/282b5327c30ec5db
 
   targetType: ip
   vpcID: vpc-07e491beffbb40a1d
