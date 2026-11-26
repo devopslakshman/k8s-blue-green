@@ -1,20 +1,20 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: nginx-green
+  name: nginx-blue
   namespace: roboshop
   labels:
     project: roboshop
     tier: frontend
     component: frontend
-    version: green
+    version: blue
 spec:
   type: ClusterIP
   selector:
     project: roboshop
     tier: frontend
     component: frontend
-    version: green
+    version: blue
   ports:
     - name: http
       port: 30080
