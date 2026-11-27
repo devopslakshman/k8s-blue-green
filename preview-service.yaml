@@ -1,6 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
+namespace: roboshop
   name: nginx-preview
 spec:
   selector:
